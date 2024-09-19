@@ -50,7 +50,8 @@ There are three files provided: **Dataset**, **Test** and **Sample Submission** 
 2. Do not use the **Test file** to train the model.
 3. Once you have calculated the **RMSE**, test the model using the **Test file** to generate your results
 4. The generated format should be similar to the **Sample Submission** File
-5. Submit your results to **kaggle**.
+5. Upload your **python notebook** and your **submission file** to your **CCMACLRL_EXAM** repository in GitHub
+6. Submit your results to **kaggle**.
 
 Here is a sample on how to create a **Sample Submission** File
 
