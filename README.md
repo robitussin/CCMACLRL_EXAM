@@ -90,9 +90,7 @@ id,FloodProbability
 
 ```
 
-# Grading Rubric
-
-# Linear Regression Model Grading Rubric (100 points)
+# Grading Rubric (100 points)
 
 | Criterion            | Excellent | Good | Poor |
 |----------------------|-----------|------|------|
