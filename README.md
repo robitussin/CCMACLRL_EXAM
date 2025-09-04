@@ -92,9 +92,12 @@ id,FloodProbability
 
 # Grading Rubric
 
-| Criterion            | Excellent (Full Marks) | Good (Partial Marks) | Poor (Low/No Marks) |
-|----------------------|-------------------------|----------------------|---------------------|
-| **Model Specification (30%)** | Correct predictors chosen, regression is appropriate, strong justification for model choice. | Reasonable predictors chosen, but justification weak or includes some irrelevant predictors. | Wrong model choice or predictors with no justification. |
-| **Model Fit (40%)** | Uses R²; interprets metrics correctly; clear discussion of goodness of fit. | Provides metrics but limited interpretation or missing key ones. | Metrics missing, incorrect, or misinterpreted. |
-| **Visualization (30%)** | Includes residual plots, fitted vs. actual plots, or other diagnostics; interprets them clearly. | Provides some plots but with incomplete or weak interpretation. | No plots included or plots are used incorrectly. |
+# Linear Regression Model Grading Rubric (100 points)
+
+| Criterion            | Excellent | Good | Poor |
+|----------------------|-----------|------|------|
+| **Model Specification (30 points)** | 30–26: Correct predictors chosen, regression appropriate, strong justification for model choice. | 25–16: Reasonable predictors chosen but justification weak or includes some irrelevant predictors. | 15–0: Wrong model choice or predictors with no justification. |
+| **Model Fit (40 points)** | 40–35: Uses R²; interprets metrics correctly; clear discussion of fit. | 34–20: Provides metrics but limited interpretation or missing key ones. | 19–0: Metrics missing, incorrect, or misinterpreted. |
+| **Visualization (30 points)** | 30–26: Includes residual plots, fitted vs. actual plots, or other diagnostics; interprets clearly. | 25–16: Provides some plots but interpretation incomplete or weak. | 15–0: No plots included or plots misused. |
+
 
