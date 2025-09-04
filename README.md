@@ -110,6 +110,6 @@ https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticR
 |----------------------|-----------|------|------|
 | **Model Specification (30 points)** | 30–26: Correct predictors chosen, regression appropriate, strong justification for model choice. | 25–16: Reasonable predictors chosen but justification weak or includes some irrelevant predictors. | 15–0: Wrong model choice or predictors with no justification. |
 | **Model Fit (40 points)** | 40–35: Uses R²; interprets metrics correctly; clear discussion of fit. | 34–20: Provides metrics but limited interpretation or missing key ones. | 19–0: Metrics missing, incorrect, or misinterpreted. |
-| **Visualization (30 points)** | 30–26: Includes residual plots, fitted vs. actual plots, or other diagnostics; interprets clearly. | 25–16: Provides some plots but interpretation incomplete or weak. | 15–0: No plots included or plots misused. |
+| **Visualization (30 points)** | 30–26: Includes residual plots, correlation matrices, fitted vs. actual plots, or other diagnostics; interprets clearly. | 25–16: Provides some plots but interpretation incomplete or weak. | 15–0: No plots included or plots misused. |
 
 
