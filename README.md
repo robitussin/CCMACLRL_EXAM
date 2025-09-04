@@ -1,5 +1,8 @@
 ## Goal
 
+Competition link:
+https://www.kaggle.com/competitions/playground-series-s4e5/overview
+
 - The goal of this competition is to predict the probability of a region flooding based on various factors.
 
 - The dataset provided for this competition includes various features related to used flooding, such as urbanization, deforestation, climate change and others.
