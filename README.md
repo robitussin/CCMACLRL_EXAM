@@ -90,7 +90,7 @@ id,FloodProbability
 
 ```
 
-# Linear Regression Model Grading Rubric
+# Grading Rubric
 
 | Criterion            | Excellent (Full Marks) | Good (Partial Marks) | Poor (Low/No Marks) |
 |----------------------|-------------------------|----------------------|---------------------|
