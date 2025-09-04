@@ -90,6 +90,19 @@ id,FloodProbability
 
 ```
 
+# Rules
+You are not allowed to use any other algorithm that we have not discussed so far.
+ 
+It is recommended to use Linear Regression:
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+ 
+But you can experiment other algorithms we have discussed if you like.
+KNNRegressor
+https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html
+ 
+LogistricRegression:
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
 # Grading Rubric (100 points)
 
 | Criterion            | Excellent | Good | Poor |
