@@ -89,3 +89,12 @@ id,FloodProbability
 ...
 
 ```
+
+# Linear Regression Model Grading Rubric
+
+| Criterion            | Excellent (Full Marks) | Good (Partial Marks) | Poor (Low/No Marks) |
+|----------------------|-------------------------|----------------------|---------------------|
+| **Model Specification (30%)** | Correct predictors chosen, regression is appropriate, strong justification for model choice. | Reasonable predictors chosen, but justification weak or includes some irrelevant predictors. | Wrong model choice or predictors with no justification. |
+| **Model Fit (40%)** | Uses R², Adjusted R², RMSE/MAE; interprets metrics correctly; clear discussion of goodness of fit. | Provides metrics but limited interpretation or missing key ones. | Metrics missing, incorrect, or misinterpreted. |
+| **Visualization (30%)** | Includes residual plots, fitted vs. actual plots, or other diagnostics; interprets them clearly. | Provides some plots but with incomplete or weak interpretation. | No plots included or plots are used incorrectly. |
+
