@@ -34,7 +34,7 @@
 
 ## Evaluation
 
-Submissions are based scored on the **Root Mean Squared Error (RMSE)**.
+Submissions are based scored on the **$R^2$**.
 
 To get the root mean squared error, use `mean_squared_error()` and set `squared=False`
 
