@@ -54,7 +54,7 @@ There are three files provided: **Dataset**, **Test** and **Sample Submission** 
 
 1. Use the **Dataset file** to train your model. Split this into train and test to calculate the **$R^2$**.
 2. Do not use the **Test file** to train the model.
-3. Once you have calculated the **RMSE**, test the model using the **Test file** to generate your results
+3. Once you have calculated the **$R^2$**., test the model using the **Test file** to generate your results
 4. The generated format should be similar to the **Sample Submission** File
 5. Upload your **python notebook** and your **submission file** to your **CCMACLRL_EXAM** repository in GitHub
 6. Submit your results to **kaggle**.
@@ -68,7 +68,7 @@ y_pred = model.predict(dt)
 # Create a submission DataFrame
 submission_df = pd.DataFrame({
     'id': id,
-    'class': y_pred
+    'FloodProbability': y_pred
 })
 
 # Save the submission DataFrame to a CSV file
