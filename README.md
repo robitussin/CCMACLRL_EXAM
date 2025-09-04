@@ -36,8 +36,6 @@
 
 Submissions are based scored on the **$R^2$**.
 
-To get the root mean squared error, use `mean_squared_error()` and set `squared=False`
-
 Here is an example:
 
 ```
@@ -47,14 +45,14 @@ model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
 
-mean_squared_error(y_test, y_pred, squared=False)
+score(y_test, y_pred)
 ```
 
 ## Instructions
 
 There are three files provided: **Dataset**, **Test** and **Sample Submission** File
 
-1. Use the **Dataset file** to train your model. Split this into train and test to calculate the **RMSE**
+1. Use the **Dataset file** to train your model. Split this into train and test to calculate the **$R^2$**.
 2. Do not use the **Test file** to train the model.
 3. Once you have calculated the **RMSE**, test the model using the **Test file** to generate your results
 4. The generated format should be similar to the **Sample Submission** File
@@ -78,13 +76,13 @@ submission_df.to_csv('submission_file.csv', index=False)
 print("Submission file created: submission_file.csv")
 ```
 
-For each id in the test set, you must predict the price of the car. The file should contain a header and have the following format:
+For each id row in the test set, you must predict the value of the target, FloodProbability. The file should contain a header and have the following format:
 
 ```
-id,price
-188533,43878.016
-188534,43878.016
-188535,43878.016
+id,FloodProbability
+1117957,0.5
+1117958,0.5
+1117959,0.5
 ...
 
 ```
