@@ -97,6 +97,7 @@ It is recommended to use Linear Regression:
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
  
 But you can experiment other algorithms we have discussed if you like.
+
 KNNRegressor
 https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html
  
